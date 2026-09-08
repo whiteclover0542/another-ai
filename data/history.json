@@ -702,5 +702,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
       }
     ]
+  },
+  {
+    "date": "2026-09-08",
+    "count": 102,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-09-07T15%3A00%3A00.000Z&pubEndDate=2026-09-08T01%3A35%3A37.379Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-09-08T01:35:37.379Z",
+    "severity": {
+      "critical": 10,
+      "high": 15,
+      "medium": 13,
+      "low": 3,
+      "unrated": 61
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-18922",
+        "severity": "CRITICAL",
+        "summaryEn": "A flaw was found in 389 Directory Server. During SASL PLAIN authentication, a stale identity carried in a Cyrus SASL auxiliary property from…",
+        "summaryKo": "389 디렉토리 서버에서 결함이 발견되었습니다. SASL 일반 인증 중에 Cyrus SASL 보조 속성에 오래된 ID가…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18922",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-7861",
+        "severity": "CRITICAL",
+        "summaryEn": "Deserialization of untrusted data vulnerability in Next4Biz Information Technologies Inc. CSM (Customer Service Management) allows Code Inje…",
+        "summaryKo": null,
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7861",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-75650",
+        "severity": "CRITICAL",
+        "summaryEn": "Adobe Commerce is affected by an Improper Neutralization of Special Elements Used in a Template Engine vulnerability that could result in ar…",
+        "summaryKo": "Adobe Commerce는 템플릿 엔진 취약점에 사용되는 특수 요소의 부적절한 무효화의 영향을 받아…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75650",
+        "cvssScore": 10,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
+      }
+    ]
   }
 ]
