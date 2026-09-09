@@ -746,5 +746,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-09-09",
+    "count": 1670,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-09-08T15%3A00%3A00.000Z&pubEndDate=2026-09-09T01%3A43%3A34.635Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-09-09T01:43:34.635Z",
+    "severity": {
+      "critical": 41,
+      "high": 590,
+      "medium": 177,
+      "low": 3,
+      "unrated": 859
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-61516",
+        "severity": "CRITICAL",
+        "summaryEn": "Netis NX10 firmware V4.0.1.5808 and V3.0.0.4142 contain an information disclosure vulnerability that allows unauthenticated attackers to ret…",
+        "summaryKo": "Netis NX10 펌웨어 V4.0.1.5808 및 V3.0.0.4142에는 인증되지 않은 공격자가…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61516",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-65669",
+        "severity": "CRITICAL",
+        "summaryEn": "Improper neutralization of special elements in output used by a downstream component ('injection') in SQL Server allows an unauthorized atta…",
+        "summaryKo": "SQL Server의 다운스트림 구성 요소 ('주입') 에서 사용되는 출력의 특수 요소를 부적절하게 중화하면 권한 없는 ATTA가 허용됩니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65669",
+        "cvssScore": 9.6,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-68839",
+        "severity": "CRITICAL",
+        "summaryEn": "Heap-based buffer overflow in Windows USB Mass Storage Class Driver allows an unauthorized attacker to execute code over a network.",
+        "summaryKo": "Windows USB 대용량 스토리지 클래스 드라이버의 힙 기반 버퍼 오버플로를 통해 무단 공격자가 네트워크를 통해 코드를 실행할 수 있습니다.",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68839",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      }
+    ]
   }
 ]
