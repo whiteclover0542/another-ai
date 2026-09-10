@@ -790,5 +790,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-09-10",
+    "count": 143,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-09-09T15%3A00%3A00.000Z&pubEndDate=2026-09-10T01%3A39%3A12.626Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-09-10T01:39:12.626Z",
+    "severity": {
+      "critical": 4,
+      "high": 14,
+      "medium": 6,
+      "low": 0,
+      "unrated": 119
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-79941",
+        "severity": "CRITICAL",
+        "summaryEn": "Dell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to 5.36.00.00, contains an Improper Neutrali…",
+        "summaryKo": "Dell SCG 5.0 어플라이언스 버전 5.36.00.16 이전 및 Dell SCG 5.0 애플리케이션 버전 5.36.00.00 이전에는 부적절한 중립이 포함되어 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79941",
+        "cvssScore": 5.3,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+      },
+      {
+        "id": "CVE-2026-79689",
+        "severity": "CRITICAL",
+        "summaryEn": "Dell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to 5.36.00.00, contains an Improper Neutrali…",
+        "summaryKo": "Dell SCG 5.0 어플라이언스 버전 5.36.00.16 이전 및 Dell SCG 5.0 애플리케이션 버전 5.36.00.00 이전에는 부적절한 중립이 포함되어 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79689",
+        "cvssScore": 5.3,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+      },
+      {
+        "id": "CVE-2026-87929",
+        "severity": "CRITICAL",
+        "summaryEn": "MaxSite CMS through 109.6 ships with a hardcoded session encryption key in application/config/config.php that is never changed during instal…",
+        "summaryKo": "MaxSite CMS는 109.6을 통해 설치 중에 변경되지 않는 응용 프로그램/config/config.php의 하드 코딩된 세션 암호화 키와 함께 제공됩니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87929",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      }
+    ]
   }
 ]
