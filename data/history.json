@@ -922,5 +922,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-09-13",
+    "count": 16,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-09-12T15%3A00%3A00.000Z&pubEndDate=2026-09-13T01%3A34%3A42.673Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-09-13T01:34:42.673Z",
+    "severity": {
+      "critical": 1,
+      "high": 3,
+      "medium": 6,
+      "low": 1,
+      "unrated": 5
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-90558",
+        "severity": "CRITICAL",
+        "summaryEn": "sngrep through 1.8.4 contains stack buffer overflow vulnerabilities in SIP attribute formatting routines when header values exceed the 255-b…",
+        "summaryKo": "sngrep through 1.8.4는 헤더 값이 255-b를 초과할 때 SIP 속성 포맷팅 루틴에 스택 버퍼 오버플로 취약점을 포함합니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90558",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-90556",
+        "severity": "HIGH",
+        "summaryEn": "Freeciv versions before 3.2.6 contain a heap buffer overflow in worklist_load() when processing savegame files with declared worklist length…",
+        "summaryKo": "3.2.6 이전 Freeciv 버전은 작업목록 길이가 선언된 savegame 파일을 처리할 때 worklist_load () 에 힙 버퍼 오버플로를 포함합니다…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90556",
+        "cvssScore": 7.8,
+        "cvssVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-90559",
+        "severity": "HIGH",
+        "summaryEn": "snappy-java through 1.1.10.8 contains an out-of-bounds write vulnerability in Snappy.uncompress(ByteBuffer, ByteBuffer) because destination…",
+        "summaryKo": "1.1.10.8을 통한 snappy-java는 대상이기 때문에 Snappy.uncompress (ByteBuffer, ByteBuffer) 에 경계 외 쓰기 취약점을 포함합니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90559",
+        "cvssScore": 7.5,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+      }
+    ]
   }
 ]
