@@ -1010,5 +1010,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-09-15",
+    "count": 548,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-09-14T15%3A00%3A00.000Z&pubEndDate=2026-09-15T02%3A01%3A35.352Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-09-15T02:01:35.352Z",
+    "severity": {
+      "critical": 5,
+      "high": 32,
+      "medium": 63,
+      "low": 10,
+      "unrated": 438
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-20353",
+        "severity": "CRITICAL",
+        "summaryEn": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Secure Email Gateway and Cisco Secure Email and W…",
+        "summaryKo": "사전 예방적 보안 및 제품 품질에 대한 Cisco의 지속적인 노력의 일환으로 Cisco Secure Email Gateway 및 Cisco Secure Email and W…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20353",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-76441",
+        "severity": "CRITICAL",
+        "summaryEn": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Secure Email Gateway and Cisco Secure Email and W…",
+        "summaryKo": "사전 예방적 보안 및 제품 품질에 대한 Cisco의 지속적인 노력의 일환으로 Cisco Secure Email Gateway 및 Cisco Secure Email and W…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76441",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-90945",
+        "severity": "CRITICAL",
+        "summaryEn": "Crawlab through 0.6.3 uses a hard-coded HMAC-SHA256 secret for JWT token signing that cannot be overridden via configuration or environment…",
+        "summaryKo": "0.6.3을 통한 크롤랩은 구성 또는 환경을 통해 재정의할 수 없는 JWT 토큰 서명에 하드 코딩된 HMAC-SHA256 암호를 사용합니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90945",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      }
+    ]
   }
 ]
