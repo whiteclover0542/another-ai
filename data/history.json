@@ -1054,5 +1054,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-09-16",
+    "count": 1214,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-09-15T15%3A00%3A00.000Z&pubEndDate=2026-09-16T01%3A52%3A33.824Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-09-16T01:52:33.824Z",
+    "severity": {
+      "critical": 44,
+      "high": 505,
+      "medium": 103,
+      "low": 8,
+      "unrated": 554
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-39919",
+        "severity": "CRITICAL",
+        "summaryEn": "Ghostscript before 10.08.0 contains a heap-based buffer overflow vulnerability in the JPEG 2000 output adapter (base/sjpx_openjpeg.c) that a…",
+        "summaryKo": "10.08.0 이전의 고스트스크립트에는 JPEG 2000 출력 어댑터 (base/sjpx_openjpeg.c) 에 힙 기반 버퍼 오버플로 취약점이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39919",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-91949",
+        "severity": "CRITICAL",
+        "summaryEn": "FreeRDP server versions before 3.31.0 contain a protocol negotiation bypass vulnerability that allows unauthenticated attackers to establish…",
+        "summaryKo": "3.31.0 이전의 FreeRDP 서버 버전에는 인증되지 않은 공격자가 설정할 수 있는 프로토콜 협상 우회 취약점이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91949",
+        "cvssScore": 9.3,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N"
+      },
+      {
+        "id": "CVE-2024-58385",
+        "severity": "CRITICAL",
+        "summaryEn": "Yonyou U8 CRM contains an unauthenticated SQL injection vulnerability in the fillbacksettingedit.php configuration endpoint where the DontCh…",
+        "summaryKo": "Yonyou U8 CRM에는 fillbacksettingedit.php 구성 엔드포인트에 인증되지 않은 SQL 주입 취약성이 있으며 여기서 DontCh는…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-58385",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      }
+    ]
   }
 ]
