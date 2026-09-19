@@ -1186,5 +1186,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:H/A:N"
       }
     ]
+  },
+  {
+    "date": "2026-09-19",
+    "count": 334,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-09-18T15%3A00%3A00.000Z&pubEndDate=2026-09-19T01%3A48%3A40.549Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-09-19T01:48:40.549Z",
+    "severity": {
+      "critical": 20,
+      "high": 50,
+      "medium": 43,
+      "low": 3,
+      "unrated": 218
+    },
+    "highlights": [
+      {
+        "id": "CVE-2025-15399",
+        "severity": "CRITICAL",
+        "summaryEn": "IBM Common Licensing Agent 9.0, Agent 9.0.0.1, Agent 9.0.0.2, ART 9.0, ART 9.0.0.1, and ART 9.0.0.2 is vulnerable to cross-site request forg…",
+        "summaryKo": "IBM Common Licensing Agent 9.0, Agent 9.0.0.1, Agent 9.0.0.2, ART 9.0, ART 9.0.0.1 및 ART 9.0.0.2는 사이트 간 요청 용서에 취약합니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-15399",
+        "cvssScore": 10,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-10747",
+        "severity": "CRITICAL",
+        "summaryEn": "IBM MQ Appliance could allow a remote attacker to cause a denial of service or potentially execute arbitrary code due to a heap buffer overf…",
+        "summaryKo": "IBM MQ Appliance를 사용하면 원격 공격자가 힙 버퍼 오버프로 인해 서비스 거부를 유발하거나 잠재적으로 임의 코드를 실행할 수 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10747",
+        "cvssScore": 10,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2023-54399",
+        "severity": "CRITICAL",
+        "summaryEn": "Hongjing e-HR before 8.2 contains a SQL injection vulnerability in the /servlet/codesettree endpoint where the categories query parameter is…",
+        "summaryKo": "8.2 이전의 Hongjing e-HR에는 범주 쿼리 매개 변수가 있는/servlet/codesettree 엔드포인트에 SQL 주입 취약점이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-54399",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      }
+    ]
   }
 ]
