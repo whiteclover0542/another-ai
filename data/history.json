@@ -1230,5 +1230,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-09-20",
+    "count": 19,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-09-19T15%3A00%3A00.000Z&pubEndDate=2026-09-20T01%3A51%3A01.139Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-09-20T01:51:01.139Z",
+    "severity": {
+      "critical": 0,
+      "high": 4,
+      "medium": 6,
+      "low": 2,
+      "unrated": 7
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-93990",
+        "severity": "HIGH",
+        "summaryEn": "Expat through 2.8.4 fails to validate low surrogates following high surrogates in UTF-16 input, allowing malformed UTF-16 sequences to be ac…",
+        "summaryKo": "Expat through 2.8.4는 UTF-16 입력에서 높은 대리자 다음에 낮은 대리자를 검증하지 못하므로 잘못된 형식의 UTF-16 시퀀스가 AC가 될 수 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93990",
+        "cvssScore": 7.5,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
+      },
+      {
+        "id": "CVE-2026-93991",
+        "severity": "HIGH",
+        "summaryEn": "Argo Workflows versions 4.1.0 through 4.1.3 contain an authorization bypass vulnerability in ListArchivedWorkflows that fails to apply clust…",
+        "summaryKo": "Argo Workflows 버전 4.1.0 ~ 4.1.3에는 클러스터를 적용하지 못하는 ListArchivedWorkflows의 인증 무시 취약성이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93991",
+        "cvssScore": 7.7,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N"
+      },
+      {
+        "id": "CVE-2026-93992",
+        "severity": "HIGH",
+        "summaryEn": "Gopeed through 2.0.0-beta.3 contains a path traversal vulnerability in archive extraction that allows attackers to write arbitrary files out…",
+        "summaryKo": "2.0.0-beta.3을 통한 Gopeed에는 아카이브 추출에 경로 트래버설 취약점이 있어 공격자가 임의 파일을 쓸 수 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93992",
+        "cvssScore": 8.1,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H"
+      }
+    ]
   }
 ]
