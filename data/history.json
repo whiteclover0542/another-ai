@@ -1318,5 +1318,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-09-22",
+    "count": 218,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-09-21T15%3A00%3A00.000Z&pubEndDate=2026-09-22T02%3A00%3A10.360Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-09-22T02:00:10.360Z",
+    "severity": {
+      "critical": 1,
+      "high": 19,
+      "medium": 12,
+      "low": 1,
+      "unrated": 185
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-94493",
+        "severity": "CRITICAL",
+        "summaryEn": "A vulnerability was detected in Gigatech PDV5701 1.0.31_240305_112640. This issue affects some unknown processing of the file /index.html of…",
+        "summaryKo": null,
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94493",
+        "cvssScore": 10,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-75939",
+        "severity": "HIGH",
+        "summaryEn": "A flaw was found in openshift/oc-mirror. The tool incorrectly verifies PGP (Pretty Good Privacy) release image signatures by checking for si…",
+        "summaryKo": null,
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75939",
+        "cvssScore": 7.4,
+        "cvssVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N"
+      },
+      {
+        "id": "CVE-2026-80110",
+        "severity": "HIGH",
+        "summaryEn": "A flaw was found in pki-core. The v2 REST ACL filter selects a tie-breaking permission for colliding literal and wildcard ACL keys using lex…",
+        "summaryKo": null,
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80110",
+        "cvssScore": 8.1,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N"
+      }
+    ]
   }
 ]
