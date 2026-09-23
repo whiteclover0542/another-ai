@@ -1362,5 +1362,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N"
       }
     ]
+  },
+  {
+    "date": "2026-09-23",
+    "count": 364,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-09-22T15%3A00%3A00.000Z&pubEndDate=2026-09-23T01%3A58%3A12.159Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-09-23T01:58:12.159Z",
+    "severity": {
+      "critical": 34,
+      "high": 47,
+      "medium": 32,
+      "low": 2,
+      "unrated": 249
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-80144",
+        "severity": "CRITICAL",
+        "summaryEn": "Lantronix SLC8000 before firmware v9.7.0.2, EMG8500/EMG7500 before firmware v9.7.0.1, and all firmware versions of SLB882/SLCx-03/SLCx-02 co…",
+        "summaryKo": "Lantronix SLC8000 (펌웨어 v9.7.0.2 이전), EMG8500/EMG7500 (펌웨어 v9.7.0.1 이전) 및 모든 펌웨어 버전의 SLB882/SLCx-03/SLCx-02 co…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80144",
+        "cvssScore": 9.9,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-80145",
+        "severity": "CRITICAL",
+        "summaryEn": "Lantronix SLC8000 before firmware v9.7.0.2, EMG8500/EMG7500 before firmware v9.7.0.1, and all firmware versions of SLB882/SLCx-03/SLCx-02 co…",
+        "summaryKo": "Lantronix SLC8000 (펌웨어 v9.7.0.2 이전), EMG8500/EMG7500 (펌웨어 v9.7.0.1 이전) 및 모든 펌웨어 버전의 SLB882/SLCx-03/SLCx-02 co…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80145",
+        "cvssScore": 9.1,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-80146",
+        "severity": "CRITICAL",
+        "summaryEn": "Lantronix SLC8000 before firmware v9.7.0.2, EMG8500/EMG7500 before firmware v9.7.0.1, and all firmware versions of SLB882/SLCx-03/SLCx-02 co…",
+        "summaryKo": "Lantronix SLC8000 (펌웨어 v9.7.0.2 이전), EMG8500/EMG7500 (펌웨어 v9.7.0.1 이전) 및 모든 펌웨어 버전의 SLB882/SLCx-03/SLCx-02 co…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80146",
+        "cvssScore": 9.9,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
+      }
+    ]
   }
 ]
