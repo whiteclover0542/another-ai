@@ -1406,5 +1406,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-09-24",
+    "count": 305,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-09-23T15%3A00%3A00.000Z&pubEndDate=2026-09-24T01%3A47%3A17.864Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-09-24T01:47:17.864Z",
+    "severity": {
+      "critical": 7,
+      "high": 25,
+      "medium": 20,
+      "low": 3,
+      "unrated": 250
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-96754",
+        "severity": "CRITICAL",
+        "summaryEn": "orval versions before 8.29.0 contain a code injection vulnerability in the @orval/hono generator that fails to escape OpenAPI path values in…",
+        "summaryKo": "8.29.0 이전의 오벌 버전에는 @ orval/hono 생성기에 코드 주입 취약점이 있으며, 이는 다음에서 OpenAPI 경로 값을 이스케이프하지 못합니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96754",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-96755",
+        "severity": "CRITICAL",
+        "summaryEn": "orval versions 8.14.0 through 8.28.1 contain a code injection vulnerability in the @orval/effect generator that converts OpenAPI schema defa…",
+        "summaryKo": "orval 버전 8.14.0 ~ 8.28.1에는 OpenAPI 스키마를 변환하는 @ orval/effect 생성기에 코드 주입 취약점이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96755",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-96759",
+        "severity": "CRITICAL",
+        "summaryEn": "orval before 8.29.0 fails to escape the operationId parameter when emitting it into generated TanStack Query mutator options metadata object…",
+        "summaryKo": "8.29.0 이전의 오벌은 생성된 TanStack 쿼리 뮤테이터 옵션 메타데이터 객체로 방출할 때 operationId 매개 변수를 이스케이프하지 못합니다…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96759",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      }
+    ]
   }
 ]
