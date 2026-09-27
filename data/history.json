@@ -1538,5 +1538,40 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-09-27",
+    "count": 22,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-09-26T15%3A00%3A00.000Z&pubEndDate=2026-09-27T02%3A01%3A55.090Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-09-27T02:01:55.090Z",
+    "severity": {
+      "critical": 1,
+      "high": 1,
+      "medium": 0,
+      "low": 0,
+      "unrated": 20
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-100740",
+        "severity": "CRITICAL",
+        "summaryEn": "A vulnerability was detected in D-Link DIR-895L A1_102b07. Impacted is the function tunnel_set_params of the file tunnel.c of the component…",
+        "summaryKo": "D-Link DIR-895L A1_102b07에서 취약점이 발견되었습니다. 영향을 받는 것은 구성 요소의 tunnel.c 파일의 tunnel_set_params 함수입니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100740",
+        "cvssScore": 9.9,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-100739",
+        "severity": "HIGH",
+        "summaryEn": "A vulnerability was detected in mathurvishal CloudClassroom-PHP-Project up to 5dadec098bfbbf3300d60c3494db3fb95b66e7be. This impacts an unkn…",
+        "summaryKo": "Mathurvishal CloudClassroom-PHP-Project에서 최대 5dadec098bfbbf3300d60c3494db3fb95b66e7be의 취약점이 탐지되었습니다. 이것은 unkn에 영향을 미칩니다…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100739",
+        "cvssScore": 7.3,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
+      }
+    ]
   }
 ]
