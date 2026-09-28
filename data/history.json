@@ -1573,5 +1573,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
       }
     ]
+  },
+  {
+    "date": "2026-09-28",
+    "count": 62,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-09-27T15%3A00%3A00.000Z&pubEndDate=2026-09-28T02%3A07%3A06.525Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-09-28T02:07:06.525Z",
+    "severity": {
+      "critical": 4,
+      "high": 14,
+      "medium": 24,
+      "low": 9,
+      "unrated": 11
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-101065",
+        "severity": "CRITICAL",
+        "summaryEn": "Obot is an open-source AI agent/MCP platform. In all versions up to and including commit d7e6970, the Docker quickstart command documented i…",
+        "summaryKo": "Obot은 오픈 소스 AI 에이전트/MCP 플랫폼입니다. 커밋 d7e6970을 포함한 모든 버전에서 Docker 빠른 시작 명령은…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101065",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-101084",
+        "severity": "CRITICAL",
+        "summaryEn": "obot versions before v0.21.1 fail to enforce Access Control Rules on the /mcp-connect endpoint, allowing any authenticated user to connect t…",
+        "summaryKo": "v0.21.1 이전의 오보트 버전은/mcp-connect 엔드포인트에서 액세스 제어 규칙을 적용하지 못하므로 인증된 모든 사용자가 t에 연결할 수 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101084",
+        "cvssScore": 9.6,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N"
+      },
+      {
+        "id": "CVE-2026-101090",
+        "severity": "CRITICAL",
+        "summaryEn": "Nezha 2.2.3 contains a Host header injection regression in the OAuth2 redirect endpoint. When the new optional dashboard_host setting is emp…",
+        "summaryKo": "Nezha 2.2.3은 OAuth2 리디렉션 엔드포인트에 호스트 헤더 주입 회귀를 포함합니다. 새 DASHBOARD_HOST 옵션 설정이 emp인 경우…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101090",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      }
+    ]
   }
 ]
