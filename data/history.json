@@ -1661,5 +1661,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-09-30",
+    "count": 429,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-09-29T15%3A00%3A00.000Z&pubEndDate=2026-09-30T02%3A34%3A43.068Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-09-30T02:34:43.068Z",
+    "severity": {
+      "critical": 8,
+      "high": 17,
+      "medium": 23,
+      "low": 4,
+      "unrated": 377
+    },
+    "highlights": [
+      {
+        "id": "CVE-2023-54400",
+        "severity": "CRITICAL",
+        "summaryEn": "Fumasoft Fumeng Cloud contains a SQL injection vulnerability in the AjaxMethod.ashx endpoint that allows unauthenticated remote attackers to…",
+        "summaryKo": "Fumasoft Fumeng Cloud는 AjaxMethod.ashx 엔드포인트에 인증되지 않은 원격 공격자가…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-54400",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-53988",
+        "severity": "CRITICAL",
+        "summaryEn": "Dockhand before 1.0.40 contains an authentication bypass vulnerability in its git webhook endpoints that allows unauthenticated remote attac…",
+        "summaryKo": "1.0.40 이전의 Dockhand에는 git webhook 엔드포인트에 인증되지 않은 원격 attac을 허용하는 인증 우회 취약점이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53988",
+        "cvssScore": 10,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-102792",
+        "severity": "CRITICAL",
+        "summaryEn": "A vulnerability was detected in Ziroom ZHOME A0101 1.0.1.0. This affects the function set_syslog of the file /api/ZRnetwork/set_syslog. The…",
+        "summaryKo": "Ziroom ZHOME A0101 1.0.1.0에서 취약점이 발견되었습니다. 이것은/api/ZRnetwork/set_syslog 파일의 set_syslog 함수에 영향을 미칩니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102792",
+        "cvssScore": 9.1,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H"
+      }
+    ]
   }
 ]
