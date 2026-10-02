@@ -1749,5 +1749,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-10-02",
+    "count": 201,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-10-01T15%3A00%3A00.000Z&pubEndDate=2026-10-02T02%3A42%3A40.331Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-10-02T02:42:40.331Z",
+    "severity": {
+      "critical": 3,
+      "high": 8,
+      "medium": 9,
+      "low": 0,
+      "unrated": 181
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-103764",
+        "severity": "CRITICAL",
+        "summaryEn": "Mooncake transfer engine before 0.3.13 contains an untrusted pointer dereference in ServerSession::readHeader that allows unauthenticated at…",
+        "summaryKo": "0.3.13 이전의 Mooncake 전송 엔진에는 ServerSession:: readHeader에서 인증되지 않은 상태를 허용하는 신뢰할 수 없는 포인터 역참조가 포함되어 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103764",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-103765",
+        "severity": "CRITICAL",
+        "summaryEn": "Mooncake through 0.3.13.post1 contains a missing authentication vulnerability in the HTTP metadata server /metadata handler that allows unau…",
+        "summaryKo": "0.3.13.post1을 통한 Mooncake에는 unau를 허용하는 HTTP 메타데이터 서버/메타데이터 처리기에 누락된 인증 취약점이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103765",
+        "cvssScore": 9.4,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:H"
+      },
+      {
+        "id": "CVE-2026-86345",
+        "severity": "CRITICAL",
+        "summaryEn": "A flaw was found in 389-ds-base. The server does not discard plaintext bytes already buffered from a client connection when negotiating Star…",
+        "summaryKo": "389-ds-base에서 결함이 발견되었습니다. 서버는 Star를 협상할 때 클라이언트 연결에서 이미 버퍼링된 일반 텍스트 바이트를 버리지 않습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86345",
+        "cvssScore": 9,
+        "cvssVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H"
+      }
+    ]
   }
 ]
