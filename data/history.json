@@ -1793,5 +1793,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-10-03",
+    "count": 131,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-10-02T15%3A00%3A00.000Z&pubEndDate=2026-10-03T02%3A29%3A12.362Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-10-03T02:29:12.362Z",
+    "severity": {
+      "critical": 3,
+      "high": 8,
+      "medium": 11,
+      "low": 1,
+      "unrated": 108
+    },
+    "highlights": [
+      {
+        "id": "CVE-2023-54405",
+        "severity": "CRITICAL",
+        "summaryEn": "H3C CVM, the Cloud Virtualization Management component of the H3C CAS cloud platform, contains an unauthenticated arbitrary file upload vuln…",
+        "summaryKo": "H3C CAS 클라우드 플랫폼의 클라우드 가상화 관리 구성 요소인 H3C CVM에는 인증되지 않은 임의 파일 업로드 벌른이 포함되어 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-54405",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-82041",
+        "severity": "CRITICAL",
+        "summaryEn": "UTMStack before 11.2.16 contains a missing authorization vulnerability in UTMIncidentCommandWebsocket.processCommand(), the handler mapped t…",
+        "summaryKo": "11.2.16 이전의 UTMStack에는 UTMIncidentCommandWebsocket.processCommand () 에 누락된 인증 취약점이 있으며, 처리기는…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82041",
+        "cvssScore": 9.9,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-82042",
+        "severity": "CRITICAL",
+        "summaryEn": "UTMStack before 11.2.16 contains an authentication bypass vulnerability that allows remote attackers to gain full administrative API access…",
+        "summaryKo": "11.2.16 이전의 UTMStack에는 원격 공격자가 전체 관리 API 액세스 권한을 얻을 수 있는 인증 무시 취약성이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82042",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      }
+    ]
   }
 ]
