@@ -1837,5 +1837,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-10-04",
+    "count": 13,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-10-03T15%3A00%3A00.000Z&pubEndDate=2026-10-04T02%3A59%3A11.835Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-10-04T02:59:11.835Z",
+    "severity": {
+      "critical": 0,
+      "high": 2,
+      "medium": 6,
+      "low": 2,
+      "unrated": 3
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-105123",
+        "severity": "HIGH",
+        "summaryEn": "W (vincent-peugnet/wcms) through 3.18.0 contains a remote code execution vulnerability that allows authenticated editors to write arbitrary…",
+        "summaryKo": "3.18.0을 통한 W (vincent-peugnet/wcms) 에는 인증된 편집자가 임의로 작성할 수 있는 원격 코드 실행 취약점이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105123",
+        "cvssScore": 8.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-105126",
+        "severity": "HIGH",
+        "summaryEn": "LaraDashboard before 1.4.8 contains an improper privilege management vulnerability that allows authenticated Admin users to escalate to Supe…",
+        "summaryKo": "1.4.8 이전의 LaraDashboard에는 인증된 관리자 사용자가 Supe로 이관할 수 있는 부적절한 권한 관리 취약점이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105126",
+        "cvssScore": 7.2,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-105124",
+        "severity": "MEDIUM",
+        "summaryEn": "W (vincent-peugnet/wcms) through 3.18.0 contains a stored cross-site scripting vulnerability that allows unauthenticated attackers to inject…",
+        "summaryKo": "3.18.0을 통한 W (vincent-peugnet/wcms) 에는 인증되지 않은 공격자가 주입할 수 있는 저장된 사이트 간 스크립팅 취약점이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105124",
+        "cvssScore": 6.1,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+      }
+    ]
   }
 ]
