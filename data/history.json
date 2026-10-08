@@ -2013,5 +2013,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-10-08",
+    "count": 200,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-10-07T15%3A00%3A00.000Z&pubEndDate=2026-10-08T03%3A09%3A01.152Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-10-08T03:09:01.152Z",
+    "severity": {
+      "critical": 8,
+      "high": 10,
+      "medium": 21,
+      "low": 1,
+      "unrated": 160
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-20328",
+        "severity": "CRITICAL",
+        "summaryEn": "A vulnerability in the web-based management interface of Cisco License On-Prem, formerly Cisco Smart Software Manager On-Prem (SSM On-Prem),…",
+        "summaryKo": "이전의 Cisco Smart Software Manager On-Prem (SSM On-Prem) 인 Cisco License On-Prem의 웹 기반 관리 인터페이스의 취약점…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20328",
+        "cvssScore": 9.1,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+      },
+      {
+        "id": "CVE-2026-76454",
+        "severity": "CRITICAL",
+        "summaryEn": "A vulnerability in the Cisco Smart Licensing Utility API of Cisco License On-Prem, formerly Cisco Smart Software Manager On-Prem (SSM On-Pre…",
+        "summaryKo": "Cisco License On-Prem (이전의 Cisco Smart Software Manager On-Prem (SSM On-Pre)) 의 Cisco Smart Licensing Utility API의 취약점…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76454",
+        "cvssScore": 9.1,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-76480",
+        "severity": "CRITICAL",
+        "summaryEn": "As part of Cisco's ongoing commitment to proactive security and product quality, the engineering team for Cisco License On-Prem, formerly Ci…",
+        "summaryKo": "사전 예방적 보안 및 제품 품질에 대한 Cisco의 지속적인 노력의 일환으로, Cisco License On-Prem (이전 명칭: Ci) 의 엔지니어링 팀은…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76480",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      }
+    ]
   }
 ]
