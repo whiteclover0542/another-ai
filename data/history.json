@@ -2057,5 +2057,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-10-09",
+    "count": 305,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-10-08T15%3A00%3A00.000Z&pubEndDate=2026-10-09T03%3A15%3A08.613Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-10-09T03:15:08.613Z",
+    "severity": {
+      "critical": 24,
+      "high": 36,
+      "medium": 47,
+      "low": 4,
+      "unrated": 194
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-14502",
+        "severity": "CRITICAL",
+        "summaryEn": "IBM DataPower Gateway 10.5.0.0 through 10.5.0.22, 10.6.1 through 10.6.6, 10.6.0.0 through 10.6.0.10, and 11.0.0.0 through 11.0.0.2 could all…",
+        "summaryKo": "IBM DataPower Gateway 10.5.0.0 ~ 10.5.0.22, 10.6.1 ~ 10.6.6, 10.6.0.0 ~ 10.6.0.10 및 11.0.0.0 ~ 11.0.0.2는 모두…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14502",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-14992",
+        "severity": "CRITICAL",
+        "summaryEn": "IBM DataPower Gateway 10.5.0.0 through 10.5.0.22, 10.6.1 through 10.6.6, 10.6.0.0 through 10.6.0.10, and 11.0.0.0 through 11.0.0.2 vulnerabl…",
+        "summaryKo": "IBM DataPower Gateway 10.5.0.0 ~ 10.5.0.22, 10.6.1 ~ 10.6.6, 10.6.0.0 ~ 10.6.0.10 및 11.0.0~ 11.0.0.2 취약점…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14992",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-107699",
+        "severity": "CRITICAL",
+        "summaryEn": "ppt2png through 0.0.6 contains an OS command injection vulnerability that allows attackers to execute operating system commands by supplying…",
+        "summaryKo": "ppt2png ~ 0.0.6에는 공격자가 다음을 제공하여 운영 체제 명령을 실행할 수 있는 OS 명령 주입 취약성이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107699",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      }
+    ]
   }
 ]
