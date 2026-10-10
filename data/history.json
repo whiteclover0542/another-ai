@@ -2101,5 +2101,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-10-10",
+    "count": 132,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-10-09T15%3A00%3A00.000Z&pubEndDate=2026-10-10T02%3A54%3A37.340Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-10-10T02:54:37.340Z",
+    "severity": {
+      "critical": 1,
+      "high": 7,
+      "medium": 10,
+      "low": 0,
+      "unrated": 114
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-108107",
+        "severity": "CRITICAL",
+        "summaryEn": "PHPNuxBill through 2025.3.20 contains an unauthenticated SQL injection vulnerability in the radius.php FreeRADIUS REST endpoint that interpo…",
+        "summaryKo": "PHPNuxBill부터 2025.3.20까지 interpo인 radius.php FreeRADIUS REST 엔드포인트에 인증되지 않은 SQL 주입 취약점이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108107",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-108101",
+        "severity": "HIGH",
+        "summaryEn": "HortusFox (hortusfox-web) through 6.3 contains an unrestricted file upload vulnerability in PlantAttachmentModel that allows authenticated u…",
+        "summaryKo": "6.3을 통한 HortusFox (hortusfox-web) 에는 인증된 u를 허용하는 PlantAttachmentModel의 무제한 파일 업로드 취약점이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108101",
+        "cvssScore": 7.5,
+        "cvssVector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-108106",
+        "severity": "HIGH",
+        "summaryEn": "Xerial snappy-java before 1.1.10.9 contains an unbounded memory allocation vulnerability that allows attackers to exhaust JVM memory by decl…",
+        "summaryKo": "1.1.10.9 이전의 Xerial snappy-java에는 공격자가 선언을 통해 JVM 메모리를 소진할 수 있는 제한 없는 메모리 할당 취약점이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108106",
+        "cvssScore": 7.5,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+      }
+    ]
   }
 ]
