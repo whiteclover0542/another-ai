@@ -2145,5 +2145,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-10-11",
+    "count": 259,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-10-10T15%3A00%3A00.000Z&pubEndDate=2026-10-11T02%3A23%3A49.083Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-10-11T02:23:49.083Z",
+    "severity": {
+      "critical": 3,
+      "high": 11,
+      "medium": 110,
+      "low": 2,
+      "unrated": 133
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-108551",
+        "severity": "CRITICAL",
+        "summaryEn": "openapi-typescript-codegen through 0.31.0 contains a code injection vulnerability that allows attackers controlling an OpenAPI document to i…",
+        "summaryKo": "0.31.0을 통한 openapi-typescript-codegen에는 OpenAPI 문서를 제어하는 공격자가…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108551",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-108598",
+        "severity": "CRITICAL",
+        "summaryEn": "Floci 1.1.0 before 2.2.0 contains a code injection vulnerability in VtlTemplateEngine that allows unauthenticated attackers to execute comma…",
+        "summaryKo": "2.2.0 이전의 Floci 1.1.0에는 VtlTemplateEngine에 인증되지 않은 공격자가 쉼표를 실행할 수 있는 코드 주입 취약점이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108598",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-108707",
+        "severity": "CRITICAL",
+        "summaryEn": "Wukong_HRM through commit 186115e contains an authentication bypass vulnerability in ParamAspect that allows unauthenticated attackers to ca…",
+        "summaryKo": "커밋 186115e를 통한 Wukong_HRM에는 인증되지 않은 공격자가 ca할 수 있는 ParamAspect의 인증 우회 취약점이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108707",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      }
+    ]
   }
 ]
