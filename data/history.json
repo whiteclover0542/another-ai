@@ -2233,5 +2233,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
       }
     ]
+  },
+  {
+    "date": "2026-10-13",
+    "count": 561,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-10-12T15%3A00%3A00.000Z&pubEndDate=2026-10-13T04%3A04%3A40.111Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-10-13T04:04:40.111Z",
+    "severity": {
+      "critical": 21,
+      "high": 117,
+      "medium": 225,
+      "low": 35,
+      "unrated": 163
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-108895",
+        "severity": "CRITICAL",
+        "summaryEn": "A weakness has been identified in Linksys E1700 1.0.0.4.003. The affected element is the function setDMZ of the file /goform/setDMZ. Executi…",
+        "summaryKo": "Linksys E1700 1.0.0.4.003에서 약점이 확인되었습니다. 영향을 받는 요소는/goform/setDMZ 파일의 setDMZ 함수입니다. Executi…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108895",
+        "cvssScore": 9.9,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-108896",
+        "severity": "CRITICAL",
+        "summaryEn": "A vulnerability was found in Linksys E1700 1.0.0.4.003. This affects the function setLinksysIpv6 of the file /goform/setLinksysIpv6. The man…",
+        "summaryKo": "Linksys E1700 1.0.0.4.003에서 취약점이 발견되었습니다. 이것은/goform/setLinksysIpv6 파일의 setLinksysIpv6 함수에 영향을 미칩니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108896",
+        "cvssScore": 9.9,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-108907",
+        "severity": "CRITICAL",
+        "summaryEn": "A vulnerability was determined in Netcore NR268 1.7.121109. Affected is the function user_ok of the component CGI Execution. This manipulati…",
+        "summaryKo": "Netcore NR268 1.7.121109에서 취약점이 확인되었습니다. 영향을 받는 것은 구성 요소 CGI 실행의 user_ok 함수입니다. 이 조작은…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108907",
+        "cvssScore": 10,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
+      }
+    ]
   }
 ]
