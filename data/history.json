@@ -2277,5 +2277,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-10-14",
+    "count": 1969,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-10-13T15%3A00%3A00.000Z&pubEndDate=2026-10-14T02%3A18%3A41.977Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-10-14T02:18:41.977Z",
+    "severity": {
+      "critical": 32,
+      "high": 160,
+      "medium": 103,
+      "low": 7,
+      "unrated": 1667
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-100133",
+        "severity": "CRITICAL",
+        "summaryEn": "Adobe Commerce is affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by an attacker to inject malicious scri…",
+        "summaryKo": "Adobe Commerce는 공격자가 악의적인 스크립트를 주입하는 데 악용할 수 있는 저장된 크로스 사이트 스크립팅 (XSS) 취약점의 영향을 받습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100133",
+        "cvssScore": 9.3,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N"
+      },
+      {
+        "id": "CVE-2026-103849",
+        "severity": "CRITICAL",
+        "summaryEn": "Adobe Commerce is affected by an Improper Neutralization of Special Elements Used in a Template Engine vulnerability that could result in ar…",
+        "summaryKo": "Adobe Commerce는 템플릿 엔진 취약점에 사용되는 특수 요소의 부적절한 무효화의 영향을 받아…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103849",
+        "cvssScore": 10,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-110130",
+        "severity": "CRITICAL",
+        "summaryEn": "Dockhand before 1.0.45 contains an authentication bypass in which the global auth hook skips authentication for any path ending in a static-…",
+        "summaryKo": "1.0.45 이전의 Dockhand에는 전역 인증 후크가 정적으로 끝나는 모든 경로에 대한 인증을 건너뛰는 인증 우회가 포함되어 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110130",
+        "cvssScore": 10,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
+      }
+    ]
   }
 ]
