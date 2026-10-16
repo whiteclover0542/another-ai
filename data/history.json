@@ -2365,5 +2365,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-10-16",
+    "count": 367,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-10-15T15%3A00%3A00.000Z&pubEndDate=2026-10-16T01%3A49%3A39.374Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-10-16T01:49:39.374Z",
+    "severity": {
+      "critical": 5,
+      "high": 46,
+      "medium": 82,
+      "low": 3,
+      "unrated": 231
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-110957",
+        "severity": "CRITICAL",
+        "summaryEn": "A vulnerability has been found in Wavlink WL-WN530BE2-A up to M30BE2_V250604. The affected element is the function sub_12580 of the file api…",
+        "summaryKo": "Wavlink WL-WN530BE2-A에서 M30BE2_V250604까지 취약점이 발견되었습니다. 영향을 받는 요소는 파일 api의 SUB_12580 함수입니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110957",
+        "cvssScore": 10,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-111281",
+        "severity": "CRITICAL",
+        "summaryEn": "Jooan JA-A12 IP cameras with firmware 009_20171107 and 05.02.31.105 contain a remote code execution vulnerability that allows unauthenticate…",
+        "summaryKo": "펌웨어 009_20171107 및 05.02.31.105가 설치된 Juan JA-A12 IP 카메라에는 인증되지 않은 상태를 허용하는 원격 코드 실행 취약점이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111281",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-111283",
+        "severity": "CRITICAL",
+        "summaryEn": "BMC Helix Network Management on-prem before 26.3.01 contains an authentication bypass vulnerability that allows unauthenticated attackers to…",
+        "summaryKo": "26.3.01 이전 버전의 온프레미스 BMC Helix Network Management에는 인증되지 않은 공격자가 다음을 수행할 수 있는 인증 무시 취약성이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111283",
+        "cvssScore": 9,
+        "cvssVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H"
+      }
+    ]
   }
 ]
