@@ -2409,5 +2409,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-10-17",
+    "count": 249,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-10-16T15%3A00%3A00.000Z&pubEndDate=2026-10-17T01%3A44%3A14.907Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-10-17T01:44:14.907Z",
+    "severity": {
+      "critical": 4,
+      "high": 19,
+      "medium": 49,
+      "low": 9,
+      "unrated": 168
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-111643",
+        "severity": "CRITICAL",
+        "summaryEn": "Misaka Danmu Server through 2.8.9 contains an authentication bypass vulnerability that allows unauthenticated attackers to write arbitrary c…",
+        "summaryKo": "2.8.9를 통한 Misaka Danmu Server에는 인증되지 않은 공격자가 임의 c를 작성할 수 있는 인증 우회 취약점이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111643",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-111690",
+        "severity": "CRITICAL",
+        "summaryEn": "Simple Admin Core through 1.8.7 contains an authentication bypass vulnerability that allows unauthenticated attackers to forge super adminis…",
+        "summaryKo": "Simple Admin Core 1.8.7에는 인증되지 않은 공격자가 최고 관리자를 위조할 수 있는 인증 무시 취약점이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111690",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-111693",
+        "severity": "CRITICAL",
+        "summaryEn": "DataBuff ai-apm-web through 0.1.10 contains a hard-coded default credentials vulnerability that allows unauthenticated attackers to gain adm…",
+        "summaryKo": "DataBuff ai-apm-web through 0.1.10에는 인증되지 않은 공격자가 adm을 얻을 수 있는 하드 코딩된 기본 자격 증명 취약점이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111693",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      }
+    ]
   }
 ]
