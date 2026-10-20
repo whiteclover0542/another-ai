@@ -2541,5 +2541,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N"
       }
     ]
+  },
+  {
+    "date": "2026-10-20",
+    "count": 374,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-10-19T15%3A00%3A00.000Z&pubEndDate=2026-10-20T02%3A16%3A07.800Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-10-20T02:16:07.800Z",
+    "severity": {
+      "critical": 12,
+      "high": 33,
+      "medium": 34,
+      "low": 6,
+      "unrated": 289
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-111862",
+        "severity": "CRITICAL",
+        "summaryEn": "Rank Math SEO PRO for WordPress is affected by a supply-chain compromise in a subset of version 3.0.123 packages downloaded or updated betwe…",
+        "summaryKo": "워드프레스용 순위 수학 SEO Pro는 다운로드되거나 업데이트된 3.0.123 버전 패키지의 하위 집합에서 공급망 손상에 영향을 받습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111862",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-109437",
+        "severity": "CRITICAL",
+        "summaryEn": "Cognition before 0.13.0 contains an unauthenticated remote code execution vulnerability due to defaulting its agent sandbox backend to local…",
+        "summaryKo": "0.13.0 이전의 인식에는 에이전트 샌드박스 백엔드를 로컬로 기본 설정하기 때문에 인증되지 않은 원격 코드 실행 취약점이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109437",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-112776",
+        "severity": "CRITICAL",
+        "summaryEn": "Craft CMS from 5.0.0 before 5.11.0 contains an authorization bypass vulnerability that allows site-scoped GraphQL tokens to mutate other sit…",
+        "summaryKo": "5.0.0에서 5.11.0 이전의 Craft CMS에는 사이트 범위의 GraphQL 토큰이 다른 SIT를 돌연변이시킬 수 있는 인증 우회 취약점이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112776",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      }
+    ]
   }
 ]
