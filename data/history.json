@@ -2629,5 +2629,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-10-22",
+    "count": 287,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-10-21T15%3A00%3A00.000Z&pubEndDate=2026-10-22T02%3A03%3A46.318Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-10-22T02:03:46.318Z",
+    "severity": {
+      "critical": 9,
+      "high": 39,
+      "medium": 46,
+      "low": 1,
+      "unrated": 192
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-20043",
+        "severity": "CRITICAL",
+        "summaryEn": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco owned Open Source Snort 3 Software engineering te…",
+        "summaryKo": "사전 예방적 보안 및 제품 품질에 대한 Cisco의 지속적인 노력의 일환으로 Cisco는 Open Source Snort 3 Software engineering te를 소유했습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20043",
+        "cvssScore": 9,
+        "cvssVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-76473",
+        "severity": "CRITICAL",
+        "summaryEn": "As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams for Cisco Emergency Responder, Cisco Prim…",
+        "summaryKo": "선제적 보안 및 제품 품질에 대한 Cisco의 지속적인 노력의 일환으로 Cisco Emergency Responder, Cisco Prim을 위한 엔지니어링 팀…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76473",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-76474",
+        "severity": "CRITICAL",
+        "summaryEn": "As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams for Cisco Emergency Responder, Cisco Prim…",
+        "summaryKo": "선제적 보안 및 제품 품질에 대한 Cisco의 지속적인 노력의 일환으로 Cisco Emergency Responder, Cisco Prim을 위한 엔지니어링 팀…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76474",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      }
+    ]
   }
 ]
