@@ -2717,5 +2717,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-10-24",
+    "count": 96,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-10-23T15%3A00%3A00.000Z&pubEndDate=2026-10-24T02%3A07%3A23.833Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-10-24T02:07:23.833Z",
+    "severity": {
+      "critical": 0,
+      "high": 2,
+      "medium": 4,
+      "low": 1,
+      "unrated": 89
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-57845",
+        "severity": "HIGH",
+        "summaryEn": "Hugging Face Datasets through 5.1.0 contains an insecure deserialization vulnerability that allows attackers to execute arbitrary Python cod…",
+        "summaryKo": "5.1.0을 통한 얼굴 데이터 세트 포옹에는 공격자가 임의 Python COD를 실행할 수 있는 안전하지 않은 역직렬화 취약점이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57845",
+        "cvssScore": 8.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-115810",
+        "severity": "HIGH",
+        "summaryEn": "Tandoor Recipes before 2.7.0 contains a server-side request forgery vulnerability in the Pestle importer that allows authenticated low-privi…",
+        "summaryKo": "2.7.0 이전의 탄두르 레시피에는 인증된 로우 프라이비 (low-privi) 를 허용하는 페슬 임포터의 서버 측 요청 위조 취약점이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115810",
+        "cvssScore": 7.7,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N"
+      },
+      {
+        "id": "CVE-2026-112333",
+        "severity": "MEDIUM",
+        "summaryEn": "GFI Archiver before 15.14 contains a stored cross-site scripting vulnerability in the MailInsights scheduled report configuration that allow…",
+        "summaryKo": "15.14 이전의 GFI 아카이버에는 MailInsights 예약 보고서 구성에 저장된 크로스 사이트 스크립팅 취약점이 있으며, 이를 통해…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112333",
+        "cvssScore": 5.4,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+      }
+    ]
   }
 ]
