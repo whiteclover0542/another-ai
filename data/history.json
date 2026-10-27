@@ -2849,5 +2849,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
       }
     ]
+  },
+  {
+    "date": "2026-10-27",
+    "count": 634,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-10-26T15%3A00%3A00.000Z&pubEndDate=2026-10-27T02%3A33%3A32.312Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-10-27T02:33:32.312Z",
+    "severity": {
+      "critical": 5,
+      "high": 18,
+      "medium": 75,
+      "low": 11,
+      "unrated": 525
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-112346",
+        "severity": "CRITICAL",
+        "summaryEn": "OpenHands Software Agent SDK before 1.52.0 contains an unauthenticated remote code execution vulnerability where the DockerWorkspace and App…",
+        "summaryKo": "1.52.0 이전의 OpenHands Software Agent SDK에는 DockerWorkspace 및 App이 인증되지 않은 원격 코드 실행 취약점이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112346",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-116504",
+        "severity": "CRITICAL",
+        "summaryEn": "A vulnerability has been found in TOTOLINK A950RG 4.1.2cu.5268_B20221104. This affects the function setCloudUpgradeFW of the file lib/cste_m…",
+        "summaryKo": "TOTOLINK A950RG 4.1.2cu.5268_B20221104에서 취약점이 발견되었습니다. 이것은 lib/cste_m 파일의 setCloudUpgradeFW 함수에 영향을 미칩니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116504",
+        "cvssScore": 9.9,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-116505",
+        "severity": "CRITICAL",
+        "summaryEn": "A vulnerability was found in TOTOLINK A950RG 4.1.2cu.5268_B20221104. This impacts the function getDeviceInfo of the file /var/lib/misc/udhcp…",
+        "summaryKo": "TOTOLINK A950RG 4.1.2cu.5268_B20221104에서 취약점이 발견되었습니다. 이는/var/lib/misc/udhcp 파일의 getDeviceInfo 함수에 영향을 미칩니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116505",
+        "cvssScore": 9.1,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H"
+      }
+    ]
   }
 ]
