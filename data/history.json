@@ -2893,5 +2893,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-10-28",
+    "count": 274,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-10-27T15%3A00%3A00.000Z&pubEndDate=2026-10-28T02%3A42%3A22.396Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-10-28T02:42:22.396Z",
+    "severity": {
+      "critical": 11,
+      "high": 21,
+      "medium": 11,
+      "low": 0,
+      "unrated": 231
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-104350",
+        "severity": "CRITICAL",
+        "summaryEn": "Adobe Campaign Classic (ACC) is affected by a reflected Cross-Site Scripting (XSS) vulnerability. An attacker could exploit this vulnerabili…",
+        "summaryKo": "Adobe Campaign Classic (ACC) 은 반영된 크로스 사이트 스크립팅 (XSS) 취약점의 영향을 받습니다. 공격자는 이 취약점을 악용할 수 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104350",
+        "cvssScore": 9.3,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N"
+      },
+      {
+        "id": "CVE-2026-104351",
+        "severity": "CRITICAL",
+        "summaryEn": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in…",
+        "summaryKo": "Adobe Campaign Classic (ACC) 은 부적절한 코드 생성 제어 ('코드 주입') 취약점의 영향을 받아…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104351",
+        "cvssScore": 9.9,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-104353",
+        "severity": "CRITICAL",
+        "summaryEn": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vu…",
+        "summaryKo": "Adobe Campaign Classic (ACC) 은 OS 명령 ('OS 명령 주입') vu에 사용되는 특수 요소의 부적절한 무효화의 영향을 받습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104353",
+        "cvssScore": 9.9,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
+      }
+    ]
   }
 ]
