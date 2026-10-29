@@ -2937,5 +2937,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-10-29",
+    "count": 273,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-10-28T15%3A00%3A00.000Z&pubEndDate=2026-10-29T03%3A01%3A44.380Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-10-29T03:01:44.380Z",
+    "severity": {
+      "critical": 5,
+      "high": 36,
+      "medium": 25,
+      "low": 3,
+      "unrated": 204
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-103406",
+        "severity": "CRITICAL",
+        "summaryEn": "An Improper Neutralization of Special Elements used in an OS Command vulnerability in the AutomatedProvisioner in Juniper Networks Session S…",
+        "summaryKo": "Juniper Networks 세션 세션의 AutomatedProvisioner에서 OS 명령 취약점에 사용되는 특수 요소의 부적절한 중화…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103406",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-103409",
+        "severity": "CRITICAL",
+        "summaryEn": "A Missing authentication for critical function vulnerability in Juniper Networks Session Smart Router allows an unauthenticated network-base…",
+        "summaryKo": "Juniper Networks 세션 스마트 라우터의 중요 기능 취약성에 대한 인증 누락으로 인해 인증되지 않은 네트워크 기반이 허용됨…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103409",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-117574",
+        "severity": "CRITICAL",
+        "summaryEn": "A flaw was found in ai-gateway-payload-processing. An authenticated remote attacker can exploit this vulnerability by submitting a request s…",
+        "summaryKo": "Ai-gateway-payload-processing에서 결함이 발견되었습니다. 인증된 원격 공격자는 요청을 제출하여 이 취약점을 이용할 수 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-117574",
+        "cvssScore": 9.1,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:L"
+      }
+    ]
   }
 ]
