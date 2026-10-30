@@ -2981,5 +2981,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:L"
       }
     ]
+  },
+  {
+    "date": "2026-10-30",
+    "count": 407,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-10-29T15%3A00%3A00.000Z&pubEndDate=2026-10-30T03%3A06%3A25.021Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-10-30T03:06:25.021Z",
+    "severity": {
+      "critical": 4,
+      "high": 30,
+      "medium": 24,
+      "low": 5,
+      "unrated": 344
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-107327",
+        "severity": "CRITICAL",
+        "summaryEn": "IBM Langflow OSS 1.0.0 through 1.12.4 could allow a remote authenticated attacker to execute arbitrary code due to missing authorization.",
+        "summaryKo": "IBM Langflow OSS 1.0.0 ~ 1.12.4를 사용하면 인증된 원격 공격자가 인증 누락으로 인해 임의 코드를 실행할 수 있습니다.",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107327",
+        "cvssScore": 9.9,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-107329",
+        "severity": "CRITICAL",
+        "summaryEn": "IBM Langflow OSS 1.0.0 through 1.12.4 could allow a remote authenticated attacker to execute arbitrary code due to improper control of code…",
+        "summaryKo": "IBM Langflow OSS 1.0.0~1.12.4를 사용하면 인증된 원격 공격자가 부적절한 코드 제어로 인해 임의 코드를 실행할 수 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107329",
+        "cvssScore": 9.9,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-110186",
+        "severity": "CRITICAL",
+        "summaryEn": "IBM Langflow OSS 1.0.0 through 1.12.8 could allow a remote attacker to execute arbitrary code due to improper control of code generation.",
+        "summaryKo": "IBM Langflow OSS 1.0.0 ~ 1.12.8을 사용하면 원격 공격자가 코드 생성을 부적절하게 제어하여 임의 코드를 실행할 수 있습니다.",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110186",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      }
+    ]
   }
 ]
