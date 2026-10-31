@@ -3025,5 +3025,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-10-31",
+    "count": 355,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-10-30T15%3A00%3A00.000Z&pubEndDate=2026-10-31T02%3A52%3A58.266Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-10-31T02:52:58.266Z",
+    "severity": {
+      "critical": 2,
+      "high": 16,
+      "medium": 31,
+      "low": 0,
+      "unrated": 306
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-119660",
+        "severity": "CRITICAL",
+        "summaryEn": "MuseBot before 2.0.0 contains an authentication bypass vulnerability that allows unauthenticated attackers to forge admin sessions by using…",
+        "summaryKo": "2.0.0 이전 버전의 MuseBot에는 인증되지 않은 공격자가 다음을 사용하여 관리 세션을 위조할 수 있는 인증 무시 취약성이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119660",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-119706",
+        "severity": "CRITICAL",
+        "summaryEn": "InternLM LMDeploy 0.9.0 through 0.18.0 contains an unauthenticated remote code execution vulnerability that allows remote attackers to run O…",
+        "summaryKo": "InternLM LMDeploy 0.9.0 ~ 0.18.0에는 원격 공격자가 O를 실행할 수 있는 인증되지 않은 원격 코드 실행 취약성이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119706",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-119655",
+        "severity": "HIGH",
+        "summaryEn": "CoreShop through 1.5.5 contains an unauthenticated sql injection vulnerability in the api/Good/GetGoodsPageList endpoint via the unvalidated…",
+        "summaryKo": "CoreShop에서 1.5.5까지의 검증되지 않은 항목을 통해 api/Good/GetGoodsPageList 엔드포인트에 인증되지 않은 sql 주입 취약점이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119655",
+        "cvssScore": 7.5,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+      }
+    ]
   }
 ]
