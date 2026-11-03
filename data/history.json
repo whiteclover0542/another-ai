@@ -3157,5 +3157,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-11-03",
+    "count": 325,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-11-02T15%3A00%3A00.000Z&pubEndDate=2026-11-03T04%3A11%3A59.816Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-11-03T04:11:59.816Z",
+    "severity": {
+      "critical": 5,
+      "high": 21,
+      "medium": 23,
+      "low": 3,
+      "unrated": 273
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-120442",
+        "severity": "CRITICAL",
+        "summaryEn": "ape-volo-admin before 3.6.1 contains an authentication bypass vulnerability that allows unauthenticated attackers to forge administrator tok…",
+        "summaryKo": "3.6.1 이전의 ape-volo-admin에는 인증되지 않은 공격자가 관리자 토큰을 위조할 수 있는 인증 우회 취약점이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120442",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-120446",
+        "severity": "CRITICAL",
+        "summaryEn": "madong-admin-saas through 5.1.4 contains a missing authentication vulnerability in the platform tenant management API because the 'platforma…",
+        "summaryKo": "madong-admin-saas ~ 5.1.4 플랫폼 테넌트 관리 API에 누락된 인증 취약점이 있습니다. 왜냐하면 'platforma…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120446",
+        "cvssScore": 9.4,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-77876",
+        "severity": "CRITICAL",
+        "summaryEn": "Control Web Panel (CWP) before webpanel_version 1.16 contains an OS command injection vulnerability in the protected_directory user panel mo…",
+        "summaryKo": "Webpanel_version 1.16 이전의 제어 웹 패널 (CWP) 은 protected_directory 사용자 패널에 OS 명령 주입 취약점을 포함하고 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77876",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      }
+    ]
   }
 ]
