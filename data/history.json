@@ -3201,5 +3201,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "count": 675,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-11-03T15%3A00%3A00.000Z&pubEndDate=2026-11-04T03%3A29%3A42.538Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-11-04T03:29:42.538Z",
+    "severity": {
+      "critical": 9,
+      "high": 17,
+      "medium": 63,
+      "low": 11,
+      "unrated": 575
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-112354",
+        "severity": "CRITICAL",
+        "summaryEn": "Etrel INCH AC charging station management web interface prior to firmware versions 7.1.2 and 8.0.1 contains a hard-coded default credentials…",
+        "summaryKo": "펌웨어 버전 7.1.2 및 8.0.1 이전의 ETREL 인치 AC 충전소 관리 웹 인터페이스에는 하드 코딩된 기본 자격 증명이 포함되어 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112354",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-121597",
+        "severity": "CRITICAL",
+        "summaryEn": "A weakness has been identified in TOTOLINK A950RG 4.1.2cu.5268_B20221104. This affects the function setAppEasyWizardConfig of the file /cgi-…",
+        "summaryKo": "TOTOLINK A950RG 4.1.2cu.5268_B20221104에서 약점이 확인되었습니다. 이것은/cgi- 파일의 setAppEasyWizardConfig 함수에 영향을 미칩니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121597",
+        "cvssScore": 9.9,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-121598",
+        "severity": "CRITICAL",
+        "summaryEn": "A security vulnerability has been detected in TOTOLINK A950RG 4.1.2cu.5268_B20221104. This impacts the function strcpy of the file /cgi-bin/…",
+        "summaryKo": "TOTOLINK A950RG 4.1.2cu.5268_B20221104에서 보안 취약점이 탐지되었습니다. 이것은 파일/cgi-bin/의 strcpy 함수에 영향을 미칩니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121598",
+        "cvssScore": 9.9,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
+      }
+    ]
   }
 ]
