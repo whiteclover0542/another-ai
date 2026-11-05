@@ -3245,5 +3245,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-11-05",
+    "count": 282,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-11-04T15%3A00%3A00.000Z&pubEndDate=2026-11-05T03%3A51%3A37.941Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-11-05T03:51:37.941Z",
+    "severity": {
+      "critical": 17,
+      "high": 47,
+      "medium": 49,
+      "low": 10,
+      "unrated": 159
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-121930",
+        "severity": "CRITICAL",
+        "summaryEn": "A weakness has been identified in Linksys WRT54GL 4.30.18. The affected element is the function system of the file apply.cgi of the componen…",
+        "summaryKo": "Linksys WRT54GL 4.30.18에서 약점이 확인되었습니다. 영향을 받는 요소는 파일의 함수 시스템입니다. apply.cgi of the componen…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121930",
+        "cvssScore": 9.1,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-121931",
+        "severity": "CRITICAL",
+        "summaryEn": "A security vulnerability has been detected in Linksys WRT54GL 4.30.18. The impacted element is the function system of the file apply.cgi of…",
+        "summaryKo": "Linksys WRT54GL 4.30.18에서 보안 취약점이 탐지되었습니다. 영향을 받는 요소는 파일의 함수 시스템입니다 apply.cgi…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121931",
+        "cvssScore": 9.1,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-121932",
+        "severity": "CRITICAL",
+        "summaryEn": "A vulnerability was detected in Linksys E5350 1.0.00.037. This affects the function system of the file /wizard/apply.cgi. Performing a manip…",
+        "summaryKo": "Linksys E5350 1.0.00.037에서 취약점이 발견되었습니다. 이것은/wizard/apply.cgi 파일의 기능 시스템에 영향을 미칩니다. 조작 수행…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121932",
+        "cvssScore": 10,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
+      }
+    ]
   }
 ]
