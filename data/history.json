@@ -3289,5 +3289,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-11-06",
+    "count": 503,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-11-05T15%3A00%3A00.000Z&pubEndDate=2026-11-06T03%3A49%3A16.849Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-11-06T03:49:16.849Z",
+    "severity": {
+      "critical": 1,
+      "high": 20,
+      "medium": 12,
+      "low": 6,
+      "unrated": 464
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-119757",
+        "severity": "CRITICAL",
+        "summaryEn": "BTCPay Server before 2.4.2, including 2.4.2 release candidates, contains an information disclosure vulnerability that allows unauthenticated…",
+        "summaryKo": "2.4.2 릴리스 후보를 포함하여 2.4.2 이전의 BTCPay Server에는 인증되지 않은 정보를 허용하는 정보 공개 취약점이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119757",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-122328",
+        "severity": "HIGH",
+        "summaryEn": "SDL_mixer 3.1.2 through 3.2.4 contains a stack-based buffer overflow vulnerability in FetchXLaw() of src/decoder_wav.c when decoding A-law o…",
+        "summaryKo": "SDL_MIXER 3.1.2~3.2.4에는 A-law o 디코딩 시 src/decoder_wav.c의 FetchXLaw () 에 스택 기반 버퍼 오버플로 취약점이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122328",
+        "cvssScore": 7.8,
+        "cvssVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-122329",
+        "severity": "HIGH",
+        "summaryEn": "SDL_mixer 3.1.2 through 3.2.4 contains a stack-based buffer overflow in FetchXLaw() in src/decoder_aiff.c due to miscalculated output offset…",
+        "summaryKo": "SDL_MIXER 3.1.2~3.2.4는 잘못 계산된 출력 오프셋으로 인해 src/decoder_aiff.c의 FetchXLaw () 에 스택 기반 버퍼 오버플로를 포함합니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122329",
+        "cvssScore": 7.8,
+        "cvssVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+      }
+    ]
   }
 ]
