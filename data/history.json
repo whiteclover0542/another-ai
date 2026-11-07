@@ -3333,5 +3333,49 @@
         "cvssVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-11-07",
+    "count": 275,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-11-06T15%3A00%3A00.000Z&pubEndDate=2026-11-07T03%3A22%3A48.954Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-11-07T03:22:48.954Z",
+    "severity": {
+      "critical": 3,
+      "high": 18,
+      "medium": 45,
+      "low": 4,
+      "unrated": 205
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-123488",
+        "severity": "CRITICAL",
+        "summaryEn": "Craft CMS 4.0.0 before 4.18.9 and 5.0.0 before 5.11.2 contains an unauthenticated SQL injection vulnerability in the element search endpoint…",
+        "summaryKo": "Craft CMS 4.0.0 (4.18.9 이전) 및 5.0.0 (5.11.2 이전) 에는 요소 검색 엔드포인트에 인증되지 않은 SQL 주입 취약점이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123488",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-109469",
+        "severity": "CRITICAL",
+        "summaryEn": "Authorization bypass through user-controlled key in Entra Device Registration allows an unauthorized attacker to elevate privileges over a n…",
+        "summaryKo": "Entra Device Registration에서 사용자가 제어하는 키를 통한 인증 우회를 통해 권한이 없는 공격자가 n을 통해 권한을 상승시킬 수 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109469",
+        "cvssScore": 10,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-93754",
+        "severity": "CRITICAL",
+        "summaryEn": "The payever – WooCommerce Gateway plugin for WordPress is vulnerable to arbitrary file upload leading to remote code execution in various ve…",
+        "summaryKo": "워드프레스용 payever – WooCommerce Gateway 플러그인은 다양한 버전에서 원격 코드 실행으로 이어지는 임의 파일 업로드에 취약합니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93754",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      }
+    ]
   }
 ]
