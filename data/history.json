@@ -3377,5 +3377,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-11-08",
+    "count": 153,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-11-07T15%3A00%3A00.000Z&pubEndDate=2026-11-08T02%3A51%3A47.046Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-11-08T02:51:47.046Z",
+    "severity": {
+      "critical": 8,
+      "high": 40,
+      "medium": 79,
+      "low": 19,
+      "unrated": 7
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-124057",
+        "severity": "CRITICAL",
+        "summaryEn": "A security flaw has been discovered in TOTOLINK CA300-PoE 6.2c.884. This impacts the function setWiFiMultipleConfig of the file /cgi-bin/cst…",
+        "summaryKo": "TOTOLINK CA300-PoE 6.2c.884에서 보안 결함이 발견되었습니다. 이것은/cgi-bin/cst 파일의 setWiFiMultipleConfig 함수에 영향을 줍니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124057",
+        "cvssScore": 9.1,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-124058",
+        "severity": "CRITICAL",
+        "summaryEn": "A weakness has been identified in TOTOLINK CA300-PoE 6.2c.884. Affected is the function setWiFiRepeaterConfig of the file /cgi-bin/cstecgi.c…",
+        "summaryKo": "TOTOLINK CA300-PoE 6.2c.884에서 약점이 확인되었습니다. 영향을 받는 것은/cgi-bin/cstecgi.c 파일의 setWiFiRepeaterConfig 함수입니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124058",
+        "cvssScore": 9.1,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-124059",
+        "severity": "CRITICAL",
+        "summaryEn": "A security vulnerability has been detected in TOTOLINK CA300-PoE 6.2c.884. Affected by this vulnerability is the function setWiFiWdsAddConfi…",
+        "summaryKo": "TOTOLINK CA300-PoE 6.2c.884에서 보안 취약점이 탐지되었습니다. 이 취약성의 영향을 받는 함수는 setWiFiWdsAddConfi입니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124059",
+        "cvssScore": 9.1,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H"
+      }
+    ]
   }
 ]
