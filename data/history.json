@@ -3465,5 +3465,49 @@
         "cvssVector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N"
       }
     ]
+  },
+  {
+    "date": "2026-11-10",
+    "count": 408,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-11-09T15%3A00%3A00.000Z&pubEndDate=2026-11-10T04%3A52%3A37.989Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-11-10T04:52:37.989Z",
+    "severity": {
+      "critical": 13,
+      "high": 82,
+      "medium": 68,
+      "low": 32,
+      "unrated": 213
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-125370",
+        "severity": "CRITICAL",
+        "summaryEn": "Kubero 3.0.0 through 3.1.1 contains an authentication bypass vulnerability that allows unauthenticated remote attackers to forge administrat…",
+        "summaryKo": "Kubero 3.0.0~3.1.1에는 인증되지 않은 원격 공격자가 관리자를 위조할 수 있는 인증 무시 취약점이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125370",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-125383",
+        "severity": "CRITICAL",
+        "summaryEn": "INDOTALENT WHMS (Asp.Net-Core-Inventory-Order-Management-System) before 10.20261109 contains an authentication bypass vulnerability caused b…",
+        "summaryKo": "10.20261109 이전의 INDOTALENT WHMS (Asp.Net-Core-Inventory-Order-Management-System) 에는 b로 인한 인증 우회 취약성이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125383",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-125384",
+        "severity": "CRITICAL",
+        "summaryEn": "INDOTALENT WHMS before 10.20261109 contains a default credentials vulnerability that allows unauthenticated attackers to gain administrator…",
+        "summaryKo": "10.20261109 이전의 INDOTALENT WHMS에는 인증되지 않은 공격자가 관리자를 얻을 수 있는 기본 자격 증명 취약점이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125384",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      }
+    ]
   }
 ]
