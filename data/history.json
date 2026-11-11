@@ -3509,5 +3509,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-11-11",
+    "count": 1826,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-11-10T15%3A00%3A00.000Z&pubEndDate=2026-11-11T03%3A19%3A21.017Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-11-11T03:19:21.017Z",
+    "severity": {
+      "critical": 26,
+      "high": 123,
+      "medium": 76,
+      "low": 3,
+      "unrated": 1598
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-120002",
+        "severity": "CRITICAL",
+        "summaryEn": "Incorrect authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network.",
+        "summaryKo": "Microsoft Office SharePoint에서 잘못된 권한을 부여하면 권한이 부여된 공격자가 네트워크를 통해 권한을 상승시킬 수 있습니다.",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120002",
+        "cvssScore": 9.9,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-120779",
+        "severity": "CRITICAL",
+        "summaryEn": "Improper control of generation of code ('code injection') in Visual Studio Code allows an unauthorized attacker to execute code over a netwo…",
+        "summaryKo": "Visual Studio 코드에서 코드 생성 ('코드 주입') 을 부적절하게 제어하면 권한 없는 공격자가 netwo를 통해 코드를 실행할 수 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120779",
+        "cvssScore": 9.6,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-80095",
+        "severity": "CRITICAL",
+        "summaryEn": "Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Office SharePoint allows an authorized att…",
+        "summaryKo": "Microsoft Office SharePoint에서 웹 페이지 생성 ('크로스 사이트 스크립팅') 중에 입력을 부적절하게 무효화하면 권한이 부여된 ATT가 허용됩니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80095",
+        "cvssScore": 9,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H"
+      }
+    ]
   }
 ]
