@@ -3729,5 +3729,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
       }
     ]
+  },
+  {
+    "date": "2026-11-18",
+    "count": 1137,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-11-17T15%3A00%3A00.000Z&pubEndDate=2026-11-18T04%3A49%3A51.648Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-11-18T04:49:51.648Z",
+    "severity": {
+      "critical": 25,
+      "high": 228,
+      "medium": 259,
+      "low": 65,
+      "unrated": 560
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-130840",
+        "severity": "CRITICAL",
+        "summaryEn": "BISHENG before 3.0.0 contains an authentication bypass vulnerability that allows unauthenticated remote attackers to impersonate administrat…",
+        "summaryKo": "3.0.0 이전 버전의 BISHENG에는 인증되지 않은 원격 공격자가 관리자를 가장할 수 있도록 하는 인증 우회 취약점이 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130840",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-130849",
+        "severity": "CRITICAL",
+        "summaryEn": "BZFlag bzfs before 2.4.32 contains a heap out-of-bounds write vulnerability in NetHandler::tcpReceive() that allows remote unauthenticated a…",
+        "summaryKo": "BZFlag bzfs 2.4.32 이전 버전에는 NetHandler::tcpReceive()에 힙 경계 외 쓰기 취약점이 있어 원격 인증되지 않은 공격자가…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130849",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-130856",
+        "severity": "CRITICAL",
+        "summaryEn": "53AIHub before 0.5.5 contains a missing authentication vulnerability that allows remote unauthenticated attackers to reinitialize installed…",
+        "summaryKo": "0.5.5 이전 버전의 53AIHub에는 인증 누락 취약점이 있어 원격의 인증되지 않은 공격자가 설치된…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130856",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      }
+    ]
   }
 ]
