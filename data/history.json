@@ -3817,5 +3817,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-11-20",
+    "count": 784,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-11-19T15%3A00%3A00.000Z&pubEndDate=2026-11-20T04%3A31%3A13.439Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-11-20T04:31:13.439Z",
+    "severity": {
+      "critical": 4,
+      "high": 43,
+      "medium": 90,
+      "low": 9,
+      "unrated": 638
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-76535",
+        "severity": "CRITICAL",
+        "summaryEn": "In Splunk Enterprise versions below 10.6.1, 10.4.5, 10.2.9, 10.0.12, and 9.4.17, an unauthenticated user could run arbitrary Search Processi…",
+        "summaryKo": "10.6.1, 10.4.5, 10.2.9, 10.0.12, 9.4.17 이전 버전의 Splunk Enterprise에서는 인증되지 않은 사용자가 임의의 검색 프로세스를 실행할 수 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76535",
+        "cvssScore": 9.1,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+      },
+      {
+        "id": "CVE-2026-76536",
+        "severity": "CRITICAL",
+        "summaryEn": "In Splunk Enterprise versions below 10.4.5, 10.2.9, 10.0.12, and 9.4.17, an unauthenticated user could use an empty clustering shared secret…",
+        "summaryKo": "10.4.5, 10.2.9, 10.0.12 및 9.4.17 이전 버전의 Splunk Enterprise에서는 인증되지 않은 사용자가 빈 클러스터링 공유 비밀을 사용할 수 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76536",
+        "cvssScore": 9.4,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-82339",
+        "severity": "CRITICAL",
+        "summaryEn": "IBM Guardium Data Protection 12.2 is vulnerable to missing authentication in the SharePoint S-TAP RelayService, allowing an unauthenticated…",
+        "summaryKo": "IBM Guardium Data Protection 12.2는 SharePoint S-TAP RelayService에서 인증이 누락되는 취약점이 있으며, 이를 통해 인증되지 않은…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82339",
+        "cvssScore": 9.1,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+      }
+    ]
   }
 ]
