@@ -3905,5 +3905,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
       }
     ]
+  },
+  {
+    "date": "2026-11-22",
+    "count": 268,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-11-21T15%3A00%3A00.000Z&pubEndDate=2026-11-22T03%3A39%3A48.034Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-11-22T03:39:48.034Z",
+    "severity": {
+      "critical": 3,
+      "high": 65,
+      "medium": 171,
+      "low": 15,
+      "unrated": 14
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-134292",
+        "severity": "CRITICAL",
+        "summaryEn": "SurrealDB 1.0.0 before 4.0.0 contains a capability check bypass in its embedded JavaScript scripting engine, where the surrealdb.functions b…",
+        "summaryKo": "4.0.0 이전의 SurrealDB 1.0.0은 내장된 JavaScript 스크립팅 엔진에 권한 검사 우회가 포함되어 있으며, 여기서 surrealdb.functions b…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134292",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-133993",
+        "severity": "CRITICAL",
+        "summaryEn": "A security flaw has been discovered in D-Link DIR-600L 2.17b02. This affects the function FUN_0040efb0 of the file gena.cgi of the component…",
+        "summaryKo": "D-Link DIR-600L 2.17b02에서 보안 결함이 발견되었습니다. 이는 구성 요소의 gena.cgi 파일의 FUN_0040efb0 함수에 영향을 미칩니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133993",
+        "cvssScore": 10,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-125294",
+        "severity": "CRITICAL",
+        "summaryEn": "The Nexter Blocks Pro plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 5.0.10 via the `tpgb_…",
+        "summaryKo": "WordPress용 Nexter Blocks Pro 플러그인은 5.0.10 이하의 모든 버전에서 `tpgb_…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125294",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      }
+    ]
   }
 ]
