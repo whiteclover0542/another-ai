@@ -3949,5 +3949,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-11-23",
+    "count": 115,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-11-22T15%3A00%3A00.000Z&pubEndDate=2026-11-23T04%3A14%3A17.396Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-11-23T04:14:17.396Z",
+    "severity": {
+      "critical": 0,
+      "high": 18,
+      "medium": 68,
+      "low": 5,
+      "unrated": 24
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-134753",
+        "severity": "HIGH",
+        "summaryEn": "dsniff through 2.5a2 contains an integer underflow in decode_sniffer() in decode_sniffer.c that allows unauthenticated remote attackers to w…",
+        "summaryKo": "dsniff 2.5a2 이하 버전에는 decode_sniffer.c의 decode_sniffer()에 정수 언더플로(integer underflow) 취약점이 있으며, 이를 통해 인증되지 않은 원격 공격자가 다음을 수행할 수 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134753",
+        "cvssScore": 7,
+        "cvssVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H"
+      },
+      {
+        "id": "CVE-2026-134765",
+        "severity": "HIGH",
+        "summaryEn": "Kirby 5.0.0 before 5.6.4 contains a race condition in Kirby\\Api\\Upload::processChunk() that allows authenticated users with upload permissio…",
+        "summaryKo": "Kirby 5.0.0 ~ 5.6.4 이전 버전에는 Kirby\\Api\\Upload::processChunk()에 레이스 컨디션(race condition)이 있어 업로드 권한이 있는 인증된 사용자가…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134765",
+        "cvssScore": 7.7,
+        "cvssVector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:N"
+      },
+      {
+        "id": "CVE-2026-134793",
+        "severity": "HIGH",
+        "summaryEn": "Electerm before 5.9.0 on Windows contains an OS command injection vulnerability that allows attackers to execute PowerShell code via crafted…",
+        "summaryKo": "Windows의 5.9.0 이전 버전의 Electerm에는 공격자가 조작된 명령을 통해 PowerShell 코드를 실행할 수 있는 OS 명령 주입 취약점이 있다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134793",
+        "cvssScore": 7.8,
+        "cvssVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+      }
+    ]
   }
 ]
