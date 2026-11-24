@@ -3993,5 +3993,49 @@
         "cvssVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-11-24",
+    "count": 418,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-11-23T15%3A00%3A00.000Z&pubEndDate=2026-11-24T07%3A13%3A36.602Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-11-24T07:13:36.602Z",
+    "severity": {
+      "critical": 12,
+      "high": 44,
+      "medium": 69,
+      "low": 19,
+      "unrated": 274
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-135208",
+        "severity": "CRITICAL",
+        "summaryEn": "Kerberos Agent before 3.14.4 contains an authentication bypass vulnerability that allows unauthenticated attackers to forge administrator to…",
+        "summaryKo": "3.14.4 이전 버전의 Kerberos Agent에는 인증 우회 취약점이 있어 인증되지 않은 공격자가 관리자를 위조하여…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135208",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-109480",
+        "severity": "CRITICAL",
+        "summaryEn": "Server-side request forgery in Profile Data Roaming Service (PDRS) allows an authorized attacker to elevate privileges over a network.",
+        "summaryKo": "프로필 데이터 로밍 서비스(PDRS)의 서버 측 요청 위조로 인해 권한이 있는 공격자가 네트워크에서 권한을 상승시킬 수 있습니다.",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109480",
+        "cvssScore": 9.6,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N"
+      },
+      {
+        "id": "CVE-2026-109490",
+        "severity": "CRITICAL",
+        "summaryEn": "Improper neutralization of input during web page generation ('cross-site scripting') in Authentication Methods Portal Extension allows an un…",
+        "summaryKo": "인증 방법 포털 확장(Authentication Methods Portal Extension)에서 웹 페이지 생성 중 입력의 부적절한 중화('크로스 사이트 스크립팅')로 인해…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109490",
+        "cvssScore": 9.3,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N"
+      }
+    ]
   }
 ]
