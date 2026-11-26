@@ -4081,5 +4081,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-11-26",
+    "count": 391,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-11-25T15%3A00%3A00.000Z&pubEndDate=2026-11-26T05%3A37%3A43.590Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-11-26T05:37:43.590Z",
+    "severity": {
+      "critical": 6,
+      "high": 33,
+      "medium": 65,
+      "low": 9,
+      "unrated": 278
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-82489",
+        "severity": "CRITICAL",
+        "summaryEn": "openIMIS before 2026-10 contains an unauthenticated remote code execution vulnerability in the report module (openimis-be-report_py) where t…",
+        "summaryKo": "2026-10 이전 버전의 openIMIS는 보고서 모듈(openimis-be-report_py)에 인증되지 않은 원격 코드 실행 취약점이 있으며,…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82489",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-137090",
+        "severity": "CRITICAL",
+        "summaryEn": "build-git-clone before 1.0.4 contains an OS command injection vulnerability in the clone() function that allows attackers to execute command…",
+        "summaryKo": "1.0.4 이전 버전의 build-git-clone에는 clone() 함수에 OS 명령 주입 취약점이 있어 공격자가 명령을 실행할 수 있습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137090",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-136821",
+        "severity": "CRITICAL",
+        "summaryEn": "A flaw has been found in D-Link R32 1.10B02. The affected element is the function SetTimeSettings of the component DHMAPI Action Handler. Th…",
+        "summaryKo": "D-Link R32 1.10B02에서 결함이 발견되었습니다. 영향을 받는 요소는 DHMAPI Action Handler 구성 요소의 SetTimeSettings 함수입니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136821",
+        "cvssScore": 9.9,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
+      }
+    ]
   }
 ]
