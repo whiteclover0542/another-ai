@@ -4125,5 +4125,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-11-27",
+    "count": 317,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-11-26T15%3A00%3A00.000Z&pubEndDate=2026-11-27T05%3A30%3A48.411Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-11-27T05:30:48.411Z",
+    "severity": {
+      "critical": 15,
+      "high": 95,
+      "medium": 121,
+      "low": 11,
+      "unrated": 75
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-104998",
+        "severity": "CRITICAL",
+        "summaryEn": "The Product Input Fields for WooCommerce plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 2…",
+        "summaryKo": "WordPress용 WooCommerce 플러그인인 Product Input Fields는 버전 2 이하(2 포함)의 모든 버전에서 임의 파일 업로드 취약점에 취약합니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104998",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-133951",
+        "severity": "CRITICAL",
+        "summaryEn": "The Simple Membership plugin for WordPress is vulnerable to Privilege Escalation in versions up to, and including, 4.8.9 This is due to the…",
+        "summaryKo": "WordPress용 Simple Membership 플러그인은 버전 4.8.9 이하에서 권한 상승에 취약하다. 이는…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133951",
+        "cvssScore": 9.1,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+      },
+      {
+        "id": "CVE-2026-134173",
+        "severity": "CRITICAL",
+        "summaryEn": "The WordPress File Upload plugin for WordPress is vulnerable to Arbitrary File Deletion in versions up to, and including, 5.3.1 via the 'wfu…",
+        "summaryKo": "WordPress용 WordPress File Upload 플러그인은 버전 5.3.1 이하에서 'wfu'를 통해 임의 파일 삭제에 취약하다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134173",
+        "cvssScore": 9.1,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H"
+      }
+    ]
   }
 ]
