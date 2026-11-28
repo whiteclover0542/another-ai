@@ -4169,5 +4169,49 @@
         "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H"
       }
     ]
+  },
+  {
+    "date": "2026-11-28",
+    "count": 128,
+    "unit": "건",
+    "timezone": "Asia/Seoul",
+    "sourceApiUrl": "https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-11-27T15%3A00%3A00.000Z&pubEndDate=2026-11-28T05%3A07%3A13.302Z&resultsPerPage=1",
+    "queriedAtUtc": "2026-11-28T05:07:13.302Z",
+    "severity": {
+      "critical": 3,
+      "high": 30,
+      "medium": 31,
+      "low": 3,
+      "unrated": 61
+    },
+    "highlights": [
+      {
+        "id": "CVE-2026-137964",
+        "severity": "CRITICAL",
+        "summaryEn": "ToolJet before 3.21.96-LTS contains a command injection vulnerability in its GitHub Actions release workflow, which interpolates the pull re…",
+        "summaryKo": "3.21.96-LTS 이전 버전의 ToolJet에는 GitHub Actions 릴리스 워크플로에 명령 주입 취약점이 있으며, 이 취약점은 풀 요청을 보간합니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137964",
+        "cvssScore": 9.8,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-138003",
+        "severity": "CRITICAL",
+        "summaryEn": "A weakness has been identified in TRENDnet TEW-751DR 1.03B01. This impacts the function FUN_0040ed90 of the file wfadev.cgi of the component…",
+        "summaryKo": "TRENDnet TEW-751DR 1.03B01에서 취약점이 식별되었습니다. 이 취약성은 구성 요소의 wfadev.cgi 파일의 FUN_0040ed90 함수에 영향을 미칩니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-138003",
+        "cvssScore": 9,
+        "cvssVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H"
+      },
+      {
+        "id": "CVE-2026-138004",
+        "severity": "CRITICAL",
+        "summaryEn": "A security vulnerability has been detected in TRENDnet TEW-751DR and TEW-733GR 1.03B01. Affected is the function soapcgi_main of the file /s…",
+        "summaryKo": "TRENDnet TEW-751DR 및 TEW-733GR 1.03B01에서 보안 취약점이 발견되었습니다. /s 파일의 soapcgi_main 함수가 영향을 받습니다.…",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-138004",
+        "cvssScore": 10,
+        "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
+      }
+    ]
   }
 ]
